@@ -11,4 +11,7 @@ while( i <= number){
     i++;
     Console.Write("{0}   ", cube);
 }
+
+if ( number == 0 )
+    Console.Write("0");
 Console.WriteLine();
